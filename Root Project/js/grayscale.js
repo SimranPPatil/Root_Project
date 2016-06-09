@@ -35,14 +35,14 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 // Google Maps Scripts
-var map = null;
+//var map = null;
 // When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
-google.maps.event.addDomListener(window, 'resize', function() {
-    map.setCenter(new google.maps.LatLng(40.6700, -73.9400));
-});
+//google.maps.event.addDomListener(window, 'load', init);
+//google.maps.event.addDomListener(window, 'resize', function() {
+//    map.setCenter(new google.maps.LatLng(40.6700, -73.9400));
+//});
 
-function init() {
+/*function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
@@ -50,7 +50,7 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.6700, -73.9400), // New York
+        //center: new google.maps.LatLng(40.6700, -73.9400), // New York
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -184,4 +184,4 @@ function init() {
         map: map,
         icon: image
     });
-}
+}*/

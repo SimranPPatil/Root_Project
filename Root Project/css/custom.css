@@ -1,7 +1,7 @@
 /*-------------Custom--------------*/
 
 #headingroot{
-	font-family: 'Yantramanav', sans-serif;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	align-self: center;
 	font-size: 5em;
 	font-weight:300;
@@ -15,7 +15,7 @@
 }
 
 #tagline{
-	font-family: 'Yantramanav';
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-size: 2em;
 	margin-top: 1%;
 }
@@ -29,7 +29,7 @@
 }
 
 #toptag{
-	font-family: 'Yantramanav', sans-serif;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   padding: 2%;
 }
 
@@ -40,18 +40,18 @@
 
 #about{
 	background-color: #d3d3d3;
-	padding: 3%;
+	padding: 2%;
 }
 
 #infohead{
 	color: #000;
-	font-family: 'Yantramanav', sans-serif;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-size: 5em;
   margin-top: 5%;
 }
 
 #infotext{
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-size: 9em;
 	letter-spacing: 1px;
 	font-weight: bold;
@@ -59,16 +59,17 @@
 
 #punch{
 	margin:1%;
-	font-family: 'News Cycle', sans-serif;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-size: 2.5em;
 	letter-spacing: 1px;
+  background-color: #d3d3d3;
 }
 .whysection{
 	background-color: #fff;
 	color: #000;
 }
 #why{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	align-self: center;
 	font-size: 4em;
 	font-weight:300;
@@ -81,7 +82,7 @@
 .service-box {
     margin: 50px auto 0;
     max-width: 400px;
-    font-family: 'News Cycle', sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 @media(min-width:992px) {
@@ -125,7 +126,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'News Cycle', sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
@@ -276,7 +277,7 @@ p {
 }
 
 .tags{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	align-self: center;
 	font-size: 2em;
 	font-weight:10;
@@ -286,7 +287,7 @@ p {
 }
 
 body{
-	font-family: 'News Cycle', sans-serif;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 #submit {
@@ -441,7 +442,7 @@ body{
 @media(max-width:800px){
 
   #headingroot{
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   align-self: center;
   font-size: 3em;
   font-weight:200;
@@ -454,14 +455,14 @@ body{
 
   #infohead{
   color: #000;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   font-size: 3em;
   margin-top: 7%;
   padding-top: 5%;
   }
 
   #infotext{
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   font-size: 5em;
   letter-spacing: 1px;
   font-weight: bold;
@@ -469,13 +470,13 @@ body{
 
   #punch{
   margin:1%;
-  font-family: 'News Cycle', sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   font-size: 2em;
   letter-spacing: 1px;
   }
 
   #why{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   align-self: center;
   font-size: 2em;
   color: #000;
@@ -484,7 +485,7 @@ body{
   }
 
   .listad{
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   font-size: 1em;
   color: #696969;
   padding: 0.5%;
@@ -492,7 +493,7 @@ body{
   }
 
   .heads{
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   font-size: 1em;
   font-weight:50;
   color: #000;
