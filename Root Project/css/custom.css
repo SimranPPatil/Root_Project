@@ -7,9 +7,8 @@
 }
 
 #rootIcon2{
-	width: 50%;
-	height: 60%;
-	padding-left: 15%;
+	width: 30%;
+	height: 30%;
 	align-self: center;
 }
 
@@ -378,30 +377,105 @@ body{
 #pennEng:active {
     transform: translateY(4px);
 }
+
+#icorps{
+    padding: 2%;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.15);
+}
+#icorps::after{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    opacity: 0;
+}
+#icorps:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border: 2px solid #99ffff;
+}
+#icorps:hover::after {
+     opacity: 1;
+}
+#icorps:active {
+    transform: translateY(4px);
+}
+
+#pci{
+    padding: 2%;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.15);
+}
+#pci::after{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    opacity: 0;
+}
+#pci:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border: 2px solid #99ffff;
+}
+#pci:hover::after {
+     opacity: 1;
+}
+#pci:active {
+    transform: translateY(4px);
+}
+
+
+#pennvention{
+    padding: 2%;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.15);
+}
+#pennvention::after{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    opacity: 0;
+}
+#pennvention:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border: 2px solid #99ffff;
+}
+#pennvention:hover::after {
+     opacity: 1;
+}
+#pennvention:active {
+    transform: translateY(4px);
+}
+
+
 .text-muted{
     letter-spacing: 2px;
 }
 
 
 #weiss {
-    height: 70%;
+    height: 100%;
     padding: 2%;
-    width: 70%;
-    
+    width: 70%;   
 }
 
 #klein {
-    height: 70%;
+    height: 100%;
     padding: 2%;
     width: 70%;
-    
 }
 
 #pennEng {
-    height: 70%;
+    height: 100%;
     padding: 2%;
     width: 70%;
-    
+}
+
+#icorps {
+    height: 100%;
+    padding: 2%;
+    width: 70%;   
+}
+
+#pci{
+    height: 100%;
+    padding: 2%;
+    width: 70%;
+}
+
+#pennvention {
+    height: 100%;
+    padding: 2%;
+    width: 70%;
 }
 
 .heads{
@@ -483,6 +557,7 @@ form {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   transition: background .3s ease-in-out;
+  text-overflow:initial;
 }
   
 
@@ -717,6 +792,7 @@ input:focus {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   transition: background .3s ease-in-out;
+  text-overflow:initial;
 }
   
 
