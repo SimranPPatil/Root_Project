@@ -13,6 +13,16 @@
 	align-self: center;
 }
 
+div{
+  color: #000;
+  font-family: 'Poiret One', cursive;
+}
+
+#learn{
+  font-family: 'Poiret One', cursive;
+  color: #000;
+  font-size: 100%;
+}
 #subscribe{
     font-family: 'Poiret One', cursive;
     font-weight: bold;
@@ -31,18 +41,8 @@
 }
 
 #emailid{
-  color: #e6ffff;
+  color: #000;
 }
-
-#lm{
-  font-family: 'Poiret One', cursive;
-  font-size: 1.5em;
-  font-weight:10;
-  color: #fff;
-  padding: 0.5%;
-  letter-spacing: 1px;
-}
-
 
 #animcol{
 	color: #000;
@@ -65,6 +65,7 @@
 #about{
 	background-color: #e6ffff;
 	padding: 2%;
+  background-size: contain;
 }
 
 #infohead{
@@ -93,6 +94,7 @@
 .whysection{
 	background-color: #fff;
 	color: #000;
+  background-size: contain;
 }
 #why{
 	font-family: 'Poiret One', cursive;
@@ -147,6 +149,7 @@ a:focus {
 }
 
 h1,
+h2
 h3,
 h4,
 h5,
@@ -401,15 +404,6 @@ body{
     
 }
 
-.listad{
-	font-family: 'Poiret One', cursive;
-	font-size: 1.5em;
-	font-weight:10;
-	color: #696969;
-	padding: 0.5%;
-	letter-spacing: 1px;
-}
-
 .heads{
 	font-family: 'Poiret One', cursive;
 	font-size: 2.5em;
@@ -431,9 +425,10 @@ body{
   font-family: 'Poiret One', cursive;
   font-size: 1.5em;
   font-weight:10;
-  color: #fff;
+  color: #000;
   padding: 0.5%;
   letter-spacing: 1px;
+  background-color: #fff;
 }
 
 
@@ -494,7 +489,7 @@ form {
 #submit:hover {
   background: #19eaea;
 }
-  
+
 
 input:focus {
   outline: none;
@@ -526,11 +521,12 @@ input:focus {
 
   #infotext{
   font-family: 'Poiret One', cursive;
-  font-size: 5em;
+  font-size: 1%;
   letter-spacing: 1px;
   font-weight: bold;
   color: #696969;
   }
+
 
   #punch{
   margin:1%;
@@ -551,10 +547,10 @@ input:focus {
 
   .listad{
   font-family: 'Poiret One', cursive;
-  font-size: 1em;
+  font-size: 1%;
   color: #696969;
   padding: 0.5%;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.25%;
   }
 
   .heads{
@@ -630,19 +626,21 @@ input:focus {
     height: 50%;
     padding: 2%;
     width: 50%;
+    margin: 2%;
   }
 
   #klein {
     height: 50%;
     padding: 2%;
     width: 50%;
+    margin: 2%;
   }
 
   #pennEng {
     height: 50%;
     padding: 2%;
     width: 50%;
-    
+    margin: 2%;
   }
 
   #bgsub{
@@ -650,10 +648,10 @@ input:focus {
   }
 
   #emailid{
-    color: #e6ffff;
+    color: #99ffff;
   }
 
-  #lm{
+  #lm, #em{
     font-family: 'Poiret One', cursive;
     font-size: 1.5em;
     font-weight:10;
@@ -666,5 +664,72 @@ input:focus {
     font-family: 'Poiret One', cursive;
     font-weight: bold;
   }
+
+  form {
+  width: 40%;
+  margin: 5% auto;
+  border: #d3d3d3 solid 3px;
+  padding: 3%;
+  border-radius: 5%;
+}
+
+
+.headermc {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: 'Poiret One', cursive;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+
+.button {
+  height: 44%;
+  border: none;
+  width:25%;
+}
+
+  
+#emailsub {
+  width: 75%;
+  height: 44%;
+  background: #fff;
+  font-family: 'Poiret One', cursive;
+  color: #d3d3d3;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+}
+
+
+#submit {
+  width: 25%;
+  height: 44%;
+  background: #99ffff;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  color: inherit;
+  letter-spacing: 1px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+  
+
+#submit:hover {
+  background: #19eaea;
+}
+  
+
+input:focus {
+  outline: none;
+  outline: 2px solid #99ffff;
+  box-shadow: 0 0 2px #99ffff;
+}
+
 
 }
