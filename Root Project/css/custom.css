@@ -1,10 +1,9 @@
 /*-------------Custom--------------*/
 
 #headingroot{
-	font-family: Arial,sans-serif;
+  font-family: 'Poiret One', cursive;
 	align-self: center;
-	font-size: 5em;
-	font-weight:300;
+	font-size: 4em;
 }
 
 #rootIcon2{
@@ -14,11 +13,36 @@
 	align-self: center;
 }
 
+#subscribe{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
 #tagline{
-	font-family: 'Avenir',sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 2em;
 	margin-top: 1%;
 }
+
+#bgsub{
+  background-color: #e6ffff;
+  padding: 3%;
+  margin-bottom: 5%;
+}
+
+#emailid{
+  color: #e6ffff;
+}
+
+#lm{
+  font-family: 'Poiret One', cursive;
+  font-size: 1.5em;
+  font-weight:10;
+  color: #fff;
+  padding: 0.5%;
+  letter-spacing: 1px;
+}
+
 
 #animcol{
 	color: #000;
@@ -29,7 +53,7 @@
 }
 
 #toptag{
-	font-family: 'Avenir',sans-serif;
+	font-family: 'Poiret One', cursive;
   padding: 2%;
 }
 
@@ -39,37 +63,39 @@
 }
 
 #about{
-	background-color: #d3d3d3;
+	background-color: #e6ffff;
 	padding: 2%;
 }
 
 #infohead{
 	color: #000;
-	font-family: 'Avenir',sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 5em;
   margin-top: 5%;
 }
 
 #infotext{
-	font-family: 'Avenir',sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 9em;
 	letter-spacing: 1px;
 	font-weight: bold;
+  color: #696969;
 }
 
 #punch{
 	margin:1%;
-	font-family: 'Avenir',sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 2.5em;
 	letter-spacing: 1px;
-  background-color: #d3d3d3;
+  background-color: #e6ffff;
+  color: #696969;
 }
 .whysection{
 	background-color: #fff;
 	color: #000;
 }
 #why{
-	font-family: 'Avenir',sans-serif;
+	font-family: 'Poiret One', cursive;
 	align-self: center;
 	font-size: 4em;
 	font-weight:300;
@@ -82,7 +108,7 @@
 .service-box {
     margin: 50px auto 0;
     max-width: 400px;
-    font-family: 'Avenir',sans-serif;
+    font-family: 'Poiret One', cursive;
 }
 
 @media(min-width:992px) {
@@ -92,12 +118,12 @@
 }
 
 .text-col{
-    color: #4BDB27;
+    color: #99ffff;
 }
 
 hr {
     max-width: 50px;
-    border-color: #4BDB27;
+    border-color: #99ffff;
     border-width: 3px;
     margin-top: 0;
 }
@@ -108,7 +134,7 @@ hr.light {
 
 
 a {
-    color: #4BDB27;
+    color: #e6ffff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -116,17 +142,16 @@ a {
 
 a:hover,
 a:focus {
-    color: #FFCF79;
+    color: #e6ffff;
 
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Avenir',sans-serif;
+    font-family: 'Poiret One', cursive;
 }
 
 p {
@@ -138,8 +163,9 @@ p {
 #contactsec{
   margin-top: 5%;
   float: bottom;
-	background-color: #d3d3d3;
+	background-color: #e6ffff;
 	padding: 3%;
+  color: #fff;
 }
 
 #email{
@@ -159,7 +185,7 @@ p {
 }
 #ahmad:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border: 2px solid #4BDB27;
+    border: 2px solid #99ffff;
 }
 #ahmad:hover::after {
      opacity: 1;
@@ -179,7 +205,7 @@ p {
 }
 #don:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border: 2px solid #4BDB27;
+    border: 2px solid #99ffff;
 }
 #don:hover::after {
      opacity: 1;
@@ -199,7 +225,7 @@ p {
 }
 #strat:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border: 2px solid #4BDB27;
+    border: 2px solid #99ffff;
 }
 #strat:hover::after {
      opacity: 1;
@@ -220,7 +246,7 @@ p {
 }
 #vincent:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border: 2px solid #4BDB27;
+    border: 2px solid #99ffff;
 }
 #vincent:hover::after {
      opacity: 1;
@@ -240,7 +266,7 @@ p {
 }
 #mike:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border: 2px solid #4BDB27;
+    border: 2px solid #99ffff;
 }
 #mike:hover::after {
      opacity: 1;
@@ -258,7 +284,7 @@ p {
 }
 
 .section-heading{
-	font-family: 'Avenir',sans-serif;
+	font-family: 'Poiret One', cursive;
 	align-self: center;
 	font-size: 3.5em;
 	font-weight:300;
@@ -268,7 +294,7 @@ p {
 }
 
 .sec2{
-	font-family: 'Avenir',sans-serif;
+	font-family: 'Poiret One', cursive;
 	align-self: center;
 	font-size: 2.5em;
 	font-weight:bolder;
@@ -277,7 +303,7 @@ p {
 }
 
 .tags{
-	font-family: 'Avenir',sans-serif;
+	font-family: 'Poiret One', cursive;
 	align-self: center;
 	font-size: 2em;
 	font-weight:10;
@@ -287,40 +313,13 @@ p {
 }
 
 body{
-	font-family: 'Avenir',sans-serif;
+	font-family: 'Poiret One', cursive;
 }
 
-#submit {
-  width: 22%;
-  height: 36px;
-  background: #4BDB27;
-  font-family: inherit;
-  font-weight: bold;
-  color: inherit;
-  letter-spacing: 1px;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  transition: background .3s ease-in-out;
-}
-  
 
-#submit:hover {
-  background: #737373;
-}
-
-#email {
-  width: 47%;
-  height: 36px;
-  background: #FDFCFB;
-  font-family: inherit;
-  color: #737373;
-  letter-spacing: 1px;
-  text-indent: 5%;
-  border-radius: 5px 0 0 5px;
-}
 
 #sponsors{
-    background-color: #d3d3d3;
+    background-color: #e6ffff;
 }
 #klein{
     padding: 2%;
@@ -332,7 +331,7 @@ body{
 }
 #klein:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border: 2px solid #4BDB27;
+    border: 2px solid #99ffff;
 }
 #klein:hover::after {
      opacity: 1;
@@ -350,7 +349,7 @@ body{
 }
 #weiss:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border: 2px solid #4BDB27;
+    border: 2px solid #99ffff;
 }
 #weiss:hover::after {
      opacity: 1;
@@ -368,7 +367,7 @@ body{
 }
 #pennEng:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border: 2px solid #4BDB27;
+    border: 2px solid #99ffff;
 }
 #pennEng:hover::after {
      opacity: 1;
@@ -403,7 +402,7 @@ body{
 }
 
 .listad{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 1.5em;
 	font-weight:10;
 	color: #696969;
@@ -412,40 +411,104 @@ body{
 }
 
 .heads{
-	font-family: 'Yantramanav', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 2.5em;
 	font-weight:10;
 	color: #000;
   margin-top: 2%;
 }
-.spon{
-	margin-bottom: 3%;
-}
+
 
 #pow{
   margin-top: 7%;
 }
 
 .bg-primary {
-    background-color: #d3d3d3;
+    background-color: #e6ffff;
 }
 
 #contact{
-  float: bottom;
-  padding: 5%;
+  font-family: 'Poiret One', cursive;
+  font-size: 1.5em;
+  font-weight:10;
+  color: #fff;
+  padding: 0.5%;
+  letter-spacing: 1px;
 }
 
-#mc{
-  margin: 5%;
+
+
+form {
+  width: 40%;
+  margin: 5% auto;
+  border: #d3d3d3 solid 3px;
+  padding: 3%;
+  border-radius: 5%;
+}
+
+
+.headermc {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: 'Poiret One', cursive;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+
+.button {
+  height: 44px;
+  border: none;
+}
+
+  
+#emailsub {
+  width: 75%;
+  background: #fff;
+  font-family: 'Poiret One', cursive;
+  color: #d3d3d3;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+}
+
+
+#submit {
+  width: 25%;
+  height: 46px;
+  background: #99ffff;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  color: inherit;
+  letter-spacing: 1px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+  
+
+#submit:hover {
+  background: #19eaea;
+}
+  
+
+input:focus {
+  outline: none;
+  outline: 2px solid #99ffff;
+  box-shadow: 0 0 2px #99ffff;
 }
 
 @media(max-width:800px){
 
   #headingroot{
-  font-family: 'Avenir',sans-serif;
+  font-family: 'Poiret One', cursive;
   align-self: center;
   font-size: 3em;
-  font-weight:200;
+  font-weight:100;
   }
 
   #rootPic{
@@ -455,28 +518,30 @@ body{
 
   #infohead{
   color: #000;
-  font-family: 'Avenir',sans-serif;
+  font-family: 'Poiret One', cursive;
   font-size: 3em;
   margin-top: 7%;
   padding-top: 5%;
   }
 
   #infotext{
-  font-family: 'Avenir',sans-serif;
+  font-family: 'Poiret One', cursive;
   font-size: 5em;
   letter-spacing: 1px;
   font-weight: bold;
+  color: #696969;
   }
 
   #punch{
   margin:1%;
-  font-family: 'Avenir',sans-serif;
+  font-family: 'Poiret One', cursive;
   font-size: 2em;
   letter-spacing: 1px;
+  color: #696969;
   }
 
   #why{
-  font-family: 'Avenir',sans-serif;
+  font-family: 'Poiret One', cursive;
   align-self: center;
   font-size: 2em;
   color: #000;
@@ -485,7 +550,7 @@ body{
   }
 
   .listad{
-  font-family: 'Avenir',sans-serif;
+  font-family: 'Poiret One', cursive;
   font-size: 1em;
   color: #696969;
   padding: 0.5%;
@@ -493,7 +558,7 @@ body{
   }
 
   .heads{
-  font-family: 'Avenir',sans-serif;
+  font-family: 'Poiret One', cursive;
   font-size: 1em;
   font-weight:50;
   color: #000;
@@ -514,7 +579,7 @@ body{
   }
   #klein:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border: 2px solid #4BDB27;
+    border: 2px solid #99ffff;
   }
   #klein:hover::after {
      opacity: 1;
@@ -532,7 +597,7 @@ body{
   }
   #weiss:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border: 2px solid #4BDB27;
+    border: 2px solid #99ffff;
   }
   #weiss:hover::after {
      opacity: 1;
@@ -550,7 +615,7 @@ body{
   }
   #pennEng:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border: 2px solid #4BDB27;
+    border: 2px solid #99ffff;
   }
   #pennEng:hover::after {
      opacity: 1;
@@ -578,6 +643,28 @@ body{
     padding: 2%;
     width: 50%;
     
+  }
+
+  #bgsub{
+    background-color: #e6ffff;
+  }
+
+  #emailid{
+    color: #e6ffff;
+  }
+
+  #lm{
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    font-weight:10;
+    color: #fff;
+    padding: 0.5%;
+    letter-spacing: 1px;
+  }
+
+  #subscribe{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
   }
 
 }
