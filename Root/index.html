@@ -9,7 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Root Project</title>
+    <title>Voltair</title>
+
+    <link rel="icon" type="image/png" href="img/VoltairSquare.png">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,32 +19,50 @@
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/grayscale.css" rel="stylesheet">
-    
+    <link href="css/animate.min.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Yantramanav:100' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
     <script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
-    <script src="js/jquery.bootstrap-autohidingnavbar.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+        $(function(){
+            $.scrollify({
+                section : ".example-classname",
+            });
+        });
+    </script>
+    <script>
+    $('document').ready(function(){
+        var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
+        console.log(mobile);
+        if(mobile){
+            $('.navbar').css('display','none');
+            $('#infohead').animate({'marginTop' : "-=20px"});
+            $('.prim').css('display','none');
+            $('.prim2').animate({'marginTop' : "-=30px"});
+            $('#why').animate({'marginTop' : "-=100px"});
+            $('#easy').animate({'marginTop' : "-=50px"});
+            $('#pow').animate({'marginTop' : "+=120px"});
+            $('#learn').animate({'marginTop' : "+=140px"});
+            $('#rootPic').animate({'marginTop' : "-=50px"});
+        }
+        else{
+            $('#why').animate({'marginTop' : "+=100px"});
+            $('#learn').animate({'marginTop' : "+=140px"});
+            $('#infohead').animate({'marginTop' : "+=40px"});
+            $('form').animate({'marginTop' : "+=140px"});
+        }
+    });  
+</script>
     
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!--navbar links-->
+    
+</head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
@@ -100,62 +120,69 @@
     </header>
 
     <!-- INFO Section -->
-    <section id="about" class="container-fluid text-center example-classname">
+    <section id="about" class="intro intro-body container-fluid text-center example-classname">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-*">
-                <h1 id="infohead">Root</h1>
-                <div class="col-lg-5 col-lg-pull-2 col-md-8 col-md-pull-2">
-                <img id="rootPic" src="./img/RootCAD v1.png"></img>
+            <div class="col-lg-12">
+                <h1 id="infohead">Root
+                <p>by Voltair</p></h1>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="col-lg-5 ">
+            <img id="rootPic" src="./img/RootCAD v1.png"></img>
+            </div>
+            <div class="col-lg-7 col-lg-push-2" id="infotext">
+                <div class="row-fluid">
+                    <p>Forget about turning off your appliances.<br>Root takes the responsibility out of your hands.</p>
                 </div>
-                <div class="col-lg-7 col-lg-push-1 text-left" id="infotext">
-                    <div class="row-fluid">
-                        <p>Forget about turning off your appliances.<br>Root takes the responsibility out of your hands.</p>
-                    </div>
-                    <div class="row-fluid">
-                        <p>Watch Root get smarter with age.<br> It learns as it collects more information.</p>
-                    </div>
-                    <div class="row-fluid">
-                        <p>Observe your energy savings skyrocket.<br> Root is a profitable investment.</p>
-                    </div>
+                <div class="row-fluid">
+                    <p>Watch Root get smarter with age.<br> It learns as it collects more information.</p>
+                </div>
+                <div class="row-fluid">
+                    <p>See your energy savings skyrocket.<br> Root is a profitable investment.</p>
                 </div>
             </div>
         </div>
         <div class="row-fluid text-center">
-                <p id="punch">Simple. Green. Profitable.</p>
+            <div class="col-lg-12">
+                <p id="punch">Instant. Green. Profitable.</p>
+            </div>
         </div>
     </section>
 
     <!-- Why Section -->
-    <section class="container-fluid text-center example-classname whysection" id="whysection">
+    <section class="intro intro-body container-fluid text-center example-classname whysection" id="whysection">
         <div class="row-fluid ">
-            <p class="section-heading" id="why">Why?</p>
+            <br><br><br>
+                <h2 id="why">Why?</h2>
+                <hr class="primary prim">
         </div>
-
         <div class="container-fluid">
         <div class="row-fluid">
             <div class="col-lg-12 text-center">
-                <h2 class="sec2">Easy</h2>
-                <hr class="primary">
+                <br>
+                <h2 class="sec2" id="easy">Easy.</h2>
+                <hr class="primary prim2">
             </div>
         </div>
         <div class="row-fluid">
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-gears wow bounceIn text-col"></i>
+                    <i class="fa fa-3x fa-gears wow animated bounceIn text-col" data-wow-duration="2s" data-wow-delay=".1s"></i>
                     <h3 class="tags">Smart</h3>
                     <p class="text-muted">Choose your max electricity bill. Root's optimization algorithms will make the most of it.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-dashboard wow bounceIn text-col"></i>
+                    <i class="fa fa-3x fa-dashboard wow animated bounceIn text-col" data-wow-duration="2s" data-wow-delay=".1s"></i>
                     <h3 class="tags">Instant</h3>
-                    <p class="text-muted">Enter your home, pre-cooled (or pre-heated) for your arrival, without touching a button.</p>
+                    <p class="text-muted">Enter your home set to ideal temperature just for your arrival, without touching a button.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-mail-forward wow bounceIn text-col"></i>
+                    <i class="fa fa-3x fa-mail-forward wow animated bounceIn text-col" data-wow-duration="2s" data-wow-delay=".1s"></i>
                     <h3 class="tags">Intuitive</h3>
                     <p class="text-muted">Have your TV automatically turn off if you left it idle.</p>
                 </div>
@@ -164,60 +191,57 @@
     </div>
     </section>
 
-    <!--Powerful and mailchimp-->
-    <section class="container-fluid text-center example-classname whysection bg-primary" id="whysection">
+    <section class=" intro intro-body container-fluid text-center example-classname whysection bg-primary" id="whysection">
         <div class="row-fluid">
             <div class="col-lg-12 text-center">
-                <h2 id="pow" class="sec2">Powerful</h2>
+                <h2 id="pow" class="sec2">Powerful.</h2>
                 <hr class="primary">
             </div>
         </div>
         <div class="row-fluid">
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-flash wow bounceIn text-col"></i>
+                    <i class="fa fa-3x fa-flash wow animated bounceIn text-col" data-wow-duration="2s" data-wow-delay=".1s"></i>
                     <h3 class="tags">Efficient</h3>
                     <p class="text-muted">Root brings energy efficiency to the masses. <br> We stand by using resources without waste.</p>
                 </div>
             </div>
              <div class="col-lg-4 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-tree wow bounceIn text-col"></i>
+                    <i class="fa fa-3x fa-tree  wow animated bounceIn text-col" data-wow-duration="2s" data-wow-delay=".1s"></i>
                     <h3 class="tags">Clean</h3>
                     <p class="text-muted">Root protects the environment using artificial intelligence. <br> We stand by sustainability.</p>
                 </div>
             </div>
              <div class="col-lg-4 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-col"></i>
+                    <i class="fa fa-3x fa-globe wow animated bounceIn text-col" data-wow-duration="2s" data-wow-delay=".1s"></i>
                     <h3 class="tags">United</h3>
-                    <p class="text-muted">Root removes wealth as a requirement for smart homes. <br> We equip everyone to stand with us.</p>
+                    <p class="text-muted">Root removes wealth as a requirement for smart homes.<br> We equip everyone to stand with us.</p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Contact Section -->
-    <section>
-        <div class="container-fluid text-center example-classname whysection bg-primary" >
-            <form action="//turingsensors.us12.list-manage.com/subscribe/post?u=ff3325cd38736cd5b311e8907&amp;id=b9e68449bf" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                <div class="headermc">
-                 <p>Subscribe for our mailing list</p>
-                </div>
-                <div class="input">
-                <input type="text" class="button" id="emailsub" name="email" placeholder="Email">
-                <input type="submit" class="button" id="submit" value="Submit">
-                </div>
-            </form>
-       </div>
+  
+    <section class="intro intro-body container-fluid text-center example-classname whysection bg-primary" >
+        <form action="//turingsensors.us12.list-manage.com/subscribe/post?u=ff3325cd38736cd5b311e8907&amp;id=b9e68449bf" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+            <div class="headermc">
+             <p>Subscribe for our mailing list</p>
+            </div>
+            <div class="input">
+            <input type="text" class="button" id="emailsub" name="email" placeholder="Email">
+            <input type="submit" class="button" id="submit" value="Submit">
+            </div>
+        </form>
    </section>
-
     <!-- Team Section -->
-    <section id= "team" class="container-fluid example-classname">
+    <section id= "team" class="intro intro-body container-fluid example-classname">
     
     <div class=" text-center">
         <div class="row-fluid">
             <div class="col-lg-12">
-                <h1 class="section-heading">The Root Project Team</h1>
+                <h2 class="heads">Voltair Team</h2>
+                    <hr class="primary">
             </div>
         </div>
         <div class="row-fluid">
@@ -255,85 +279,95 @@
 
     <!-- Sponsors and Advisors -->
     
-    <section class="container-fluid example-classname" id="sponsors">
-        <div id="sponsorsLogos">
+    <section class="intro intro-body container-fluid example-classname" id="sponsors">
             <div class="row-fluid spon">
                 <div class="col-lg-12 text-center">
                     <h2 class="heads">Sponsors</h2>
+                        <hr class="primary">
                 </div>
             </div>  
             <div class="row">
                 <div class="text-center">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <a href="http://kleinmanenergy.upenn.edu/" target="_blank"><img src="./img/kleinman.png" id="klein"></img></a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <a href="http://weisslabs.io/"><img src="./img/weisslabs.png" id="weiss" target="_blank"></img></a>
-                    </div>
-                    <div class="col-lg-4">
-                        <a href="http://www.seas.upenn.edu/"><img src="./img/pennEng.png" id="pennEng" target="_blank"></img></a>
                     </div>
                 </div>
             </div>
-            <br>
             <div class="row">
                 <div class="text-center">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
+                        <a href="http://www.seas.upenn.edu/"><img src="./img/pennEng.png" id="pennEng" target="_blank"></img></a>
+                    </div>
+                    <div class="col-lg-6">
                         <a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504672" target="_blank"><img src="./img/icorps.png" id="icorps"></img></a>
                     </div>
-                    
-                    <div class="col-lg-4">
-                        <a href="http://www.pci.upenn.edu/"><img src="./img/pci.jpg" id="pci" target="_blank"></img></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center">
+                    <div class="col-lg-6">
+                        <a href="http://www.pci.upenn.edu/"><img src="./img/pci.png" id="pci" target="_blank"></img></a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <a href="http://pennvention.io/"><img src="./img/pennvention.png" id="pennvention" target="_blank"></img></a>
                     </div>
                 </div>
             </div>
+    </section>
+    <section class="intro intro-body container-fluid example-classname bg-primary" id="advisors">
+        <div class="row-fluid">
+            <div class="col-lg-12 text-center">
+                <br>
+                <h2 class="heads">Advisors</h2>
+                    <hr class="primary">
+            </div>
         </div>
-        <div>
-            <div class="row-fluid">
-                <div class="col-lg-12 text-center">
-                    <h2 class="heads">Advisors</h2>
+        <div class="row-fluid">
+                <div class="col-lg-12 text-center advisors">
+                    <div>Laurie Actman, COO at Penn Center for Innovation</div>
                 </div>
-            </div>
-            <div class="row-fluid">
-                <p class="text-muted">
-                    <div class="col-lg-12 text-center">
-                        <div>Laurie Actman, COO at Penn Center for Innovation</div>
-                        <hr class="primary">
-                    </div>
-                    <div class="col-lg-12 text-center ">
-                        <div>Anne Stamer, Head of Weiss Tech House</div>
-                        <hr class="primary">
-                    </div>
-                    <div class="col-lg-12 text-center ">
-                        <div>Rahul Mangharam, Professor of Electrical Engineering at Penn</div>
-                        <hr class="primary">
-                    </div>
-                    <div class="col-lg-12 text-center ">
-                        <div>JoAnne Spigonardo, Director of the Wharton Initiative for Global Environmental Leadership</div>
-                        <hr class="primary">
-                    </div>
-                    <div class="col-lg-12 text-center ">
-                        <div>David Monnerat, Senior Director of Intellectual Property at Comcast</div>
-                        <hr class="primary">
-                    </div>
-                </p>
-            </div>
+                <br>
+                <div class="col-lg-12 text-center advisors ">
+                    <div>Rahul Mangharam, Professor of Electrical Engineering at Penn</div>
+                </div>
+                <br>
+                <div class="col-lg-12 text-center advisors ">
+                    <div>JoAnne Spigonardo, Director of the Wharton Initiative for Global Environmental Leadership</div>
+                </div>
+                <br>
+                <div class="col-lg-12 text-center advisors ">
+                    <div>Guthrie Gintzler, Founder of WeissLabs Accelerator</div>
+                </div>
+                <br>
+                <div class="col-lg-12 text-center  advisors">
+                    <div>David Monnerat, Senior Director of Intellectual Property at Comcast</div>
+                </div>
+                <br>
+                <div class="col-lg-12 text-center  advisors">
+                    <div>Michael Berganovsky, Director of Engineering at AppNexus</div>
+                </div>
+                <br>
+                <div class="col-lg-12 text-center advisors">
+                    <div>Anne Stamer, Head of Weiss Tech House</div>
+                </div>
+                <br>
+                <br>
         </div>
     </section>
 
     <!--Contact us-->
-    <section id="contact" class="example-classname">    
+    <section id="contact" class="intro intro-body example-classname">    
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 id="learn">Want to help or learn more? </h2>
                     <hr class="primary">
                         <div>Email us</div>
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:mike@rootproject.info" id="emailid">team@rootproject.io</a></p>
+                    <i class="fa fa-envelope-o fa-3x animated bounceIn" data-animated-delay=".1s"></i>
+                    <p><a href="mailto:mike@rootproject.info" id="emailid">team@voltair.io</a></p>
                 </div>
             </p>
         </div>
@@ -348,12 +382,11 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
     <!-- Custom Theme JavaScript -->
-    
+    <script src="js/jquery.scrollify.js"></script>
+    <script src="js/jquery.scrollify.min.js"></script>
     <script src="js/grayscale.js"></script>
+    <script src="js/scrollify.js"></script>
 
     <script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
 
