@@ -30,15 +30,7 @@
     <script>
       new WOW().init();
     </script>
-    <script>
-        $(function(){
-            $.scrollify({
-                section : ".example-classname",
-                scrollSpeed: 400,
-                scrollbars: true,
-            });
-        });
-    </script>
+
     <script>
     $('document').ready(function(){
         var mobile = (/iphone|ipod|android|ipad|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
@@ -55,6 +47,7 @@
             $('#pow').animate({'marginTop' : "+=70px"});
             $('#learn').animate({'marginTop' : "+=140px"});
             $('#rootPic').animate({'marginTop' : "-=50px"});
+            $('#advisors').css('backgroundColor','#fff');
         }
         else if(isiPad){
             $('.navbar').css('display','none');
@@ -70,12 +63,11 @@
             $('#logo').animate({'marginLeft' : "-=10px"});
         }
         else{
-            $('#why').animate({'marginTop' : "+=100px"});
+            $('#why').animate({'marginTop' : "+=10px"});
             $('#learn').animate({'marginTop' : "+=140px"});
             $('#infohead').animate({'marginTop' : "+=40px"});
-            $('form').animate({'marginTop' : "+=140px"});
-            $('#vt').animate({'marginTop' : "-=50px"});
-            
+            $('form').animate({'marginTop' : "+=10px"});
+            $('#easy').animate({'marginTop' : "+=40px"});
             $('.img-responsive2').animate({'marginTop' : "-=10px"});
             $('#logo').animate({'marginLeft' : "-=10px"});
         }
@@ -212,14 +204,14 @@
     </div>
     </section>
 
-    <section class=" intro intro-body container-fluid text-center example-classname whysection bg-primary" id="whysection">
-        <div class="row-fluid">
+    <section class=" container-fluid text-center example-classname whysection" id="powerful">
+        <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                 <h2 id="pow" class="sec2">Powerful.</h2>
                 <hr class="primary">
             </div>
         </div>
-        <div class="row-fluid">
+        <div class="row">
             <div class="col-lg-4 text-center">
                 <div class="service-box">
                     <i class="fa fa-3x fa-flash wow animated bounceIn text-col" data-wow-duration="2s" data-wow-delay=".1s"></i>
@@ -242,19 +234,19 @@
                 </div>
             </div>
         </div>
-    </section>
+    	<div class=" row" >
+	        <form action="//turingsensors.us12.list-manage.com/subscribe/post?u=ff3325cd38736cd5b311e8907&amp;id=b9e68449bf" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+	            <div class="headermc">
+	             <p>Subscribe for our mailing list</p>
+	            </div>
+	            <div class="input">
+	            <input type="text" class="button" id="emailsub" name="email" placeholder="Email">
+	            <input type="submit" class="button" id="submit" value="Submit">
+	            </div>
+	        </form>
+   		</div>
+   	</section>
   
-    <section class="intro intro-body container-fluid text-center example-classname whysection bg-primary" >
-        <form action="//turingsensors.us12.list-manage.com/subscribe/post?u=ff3325cd38736cd5b311e8907&amp;id=b9e68449bf" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-            <div class="headermc">
-             <p>Subscribe for our mailing list</p>
-            </div>
-            <div class="input">
-            <input type="text" class="button" id="emailsub" name="email" placeholder="Email">
-            <input type="submit" class="button" id="submit" value="Submit">
-            </div>
-        </form>
-   </section>
     <!-- Team Section -->
     <section id= "team" class="intro intro-body container-fluid example-classname">
     
@@ -340,7 +332,7 @@
                 </div>
             </div>
     </section>
-    <section class="intro intro-body container-fluid example-classname bg-primary" id="advisors">
+    <section class="intro intro-body container-fluid example-classname" id="advisors">
         <div class="row-fluid">
             <div class="col-lg-12 text-center">
                 <br>
@@ -405,7 +397,7 @@
     <script src="js/jquery.easing.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/jquery.scrollify.min.js"></script>
+
     <script src="js/grayscale.js"></script>
 
 </body>
