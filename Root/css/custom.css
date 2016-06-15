@@ -100,7 +100,7 @@ html{
 /*-------------info---------------------------*/
 
 #rootPic{
-  width: 60%;
+  width: 80%;
   height: 100%;
   vertical-align: middle;
 }
@@ -200,7 +200,7 @@ html{
 }
 
 #pow{
-  margin-top: 17%;
+  margin-top: 10%;
 }
 @media(min-width:992px) {
     .service-box {
@@ -522,44 +522,44 @@ input:focus {
 
 
 #weiss {
-    height: 100%;
+    height: auto;
     padding: 2%;
-    width: 60%; 
+    width: 50%; 
     margin: 1%;  
 }
 
 #klein {
-    height: 100%;
+    height: 30%;
     padding: 1%;
-    width: 60%;
+    width: 50%;
     margin: 1%;
 }
 
 #pennEng {
-    height: 100%;
+    height: auto
     padding: 2%;
-    width: 60%;
+    width: 50%;
     margin: 1%;
 }
 
 #icorps {
-    height: 100%;
+    height: auto;
     padding: 2%;
-    width: 60%;
+    width: 50%;
     margin: 1%;   
 }
 
 #pci{
-    height: 60%;
+    height: auto;
     padding: 1%;
-    width: 60%;
+    width: 50%;
     margin: 1%;
 }
 
 #pennvention {
-    height: 100%;
+    height: auto;
     padding: 2%;
-    width: 60%;
+    width: 50%;
     margin: 1%;
 }
 
