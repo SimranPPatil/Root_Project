@@ -11,7 +11,7 @@
 
     <title>Voltair</title>
 
-    <link rel="icon" type="image/png" href="img/VoltairSquare.png">
+    <link rel="icon" type="image/png" href="img/VoltairSquare-min.png">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,6 +34,8 @@
         $(function(){
             $.scrollify({
                 section : ".example-classname",
+                scrollSpeed: 2000,
+                scrollbars: true,
             });
         });
     </script>
@@ -43,11 +45,11 @@
         console.log(mobile);
         if(mobile){
             $('.navbar').css('display','none');
-            $('#infohead').animate({'marginTop' : "-=20px"});
+            $('#infohead').animate({'marginTop' : "-=10px"});
             $('.prim').css('display','none');
             $('.prim2').animate({'marginTop' : "-=30px"});
-            $('#why').animate({'marginTop' : "-=100px"});
-            $('#easy').animate({'marginTop' : "-=50px"});
+            $('#why').animate({'marginTop' : "-=30px"});
+            $('#easy').animate({'marginTop' : "-=40px"});
             $('#pow').animate({'marginTop' : "+=120px"});
             $('#learn').animate({'marginTop' : "+=140px"});
             $('#rootPic').animate({'marginTop' : "-=50px"});
@@ -57,11 +59,17 @@
             $('#learn').animate({'marginTop' : "+=140px"});
             $('#infohead').animate({'marginTop' : "+=40px"});
             $('form').animate({'marginTop' : "+=140px"});
+            $('#vt').animate({'marginTop' : "-=50px"});
+            $('#mike').animate({'marginLeft' : "+=230px"});
+            $('#strat').animate({'marginLeft' : "-=280px"});
+            $('#ahmad').animate({'marginLeft' : "+=100px"});
+            $('#vincent').animate({'marginLeft' : "-=100px"});
+            $('.img-responsive2').animate({'marginTop' : "-=10px"});
+            $('#logo').animate({'marginLeft' : "-=10px"});
         }
     });  
 </script>
-    
-    
+  
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -74,7 +82,8 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light" id="toptag">Voltair</span> 
+                    <span class="light" id="toptag"><img class="img-responsive2" id="logo"       
+           src="./img/Voltair-min.png">   Voltair</span> 
                 </a>
             </div>
 
@@ -108,7 +117,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h2 class="brand-heading" id="headingroot">Voltair</h2>
-                        <img id="rootIcon2" src="./img/Voltair.png"></img>
+                        <img id="rootIcon2" src="./img/Voltair-min.png"></img>
                         <p class="intro-text" id="tagline">Uproot your energy bill. Reroot your planet.</p>
                         <a href="#about" class="btn btn-circle page-scroll" id="animcol2">
                             <i class="fa fa-angle-double-down animated" id="animcol"></i>
@@ -129,7 +138,7 @@
         </div>
         <div class="row-fluid">
             <div class="col-lg-5 ">
-            <img id="rootPic" src="./img/RootCAD v1.png"></img>
+            <img id="rootPic" src="./img/RootCAD v1-min.png"></img>
             </div>
             <div class="col-lg-7 col-lg-push-2" id="infotext">
                 <div class="row-fluid">
@@ -240,36 +249,36 @@
     <div class=" text-center">
         <div class="row-fluid">
             <div class="col-lg-12">
-                <h2 class="heads">Voltair Team</h2>
+                <h2 class="heads" id="vt">Voltair Team</h2>
                     <hr class="primary">
             </div>
         </div>
         <div class="row-fluid">
             <div class="col-sm-4">
             <a href="https://www.linkedin.com/in/michaelraevsky" target="_blank">
-                <img src="img/mike.png" alt="Michael" class="img-circle" width="200" height="250" id="mike">
+                <img src="img/mike-min.png" alt="Michael" class="img-circle" width="200" height="250" id="mike">
             </a>
             </div>
             <div class="col-sm-4">
             <a href="https://www.linkedin.com/in/dknyu" target="_blank">
-                <img src="img/don.png" alt="Don Yu" class="img-circle" width="200" height="250" id="don">
+                <img src="img/don-min.png" alt="Don Yu" class="img-circle" width="200" height="250" id="don">
             </a>
             </div>
             <div class="col-sm-4">
             <a href="https://www.linkedin.com/in/stratton-spirou-bb7142a8" target="_blank">
-                <img src="img/strat.png" alt="Stratton" class="img-circle" width="200" height="250" id="strat">
+                <img src="img/strat-min.png" alt="Stratton" class="img-circle" width="200" height="250" id="strat">
             </a>
             </div>
         </div>
         <div class="row-fluid" id="rowtwo">
             <div class="col-sm-4 col-sm-push-2">
             <a href="https://www.linkedin.com/in/ahmad-attia-455861a8" target="_blank">
-                <img src="img/ahmad.png" alt="Ahmad" class="img-circle" width="200" height="250" id="ahmad">
+                <img src="img/ahmad-min.png" alt="Ahmad" class="img-circle" width="200" height="250" id="ahmad">
             </a>
             </div>
             <div class="col-sm-4 col-sm-push-2">
             <a href="https://www.linkedin.com/in/vincent-po-b6411a111" target="_blank">
-                <img src="img/vincent.png" alt="Vincent" class="img-circle" width="200" height="250" id="vincent">
+                <img src="img/vincent-min.png" alt="Vincent" class="img-circle" width="200" height="250" id="vincent">
             </a>
             </div>
         </div>
@@ -289,30 +298,30 @@
             <div class="row">
                 <div class="text-center">
                     <div class="col-lg-6">
-                        <a href="http://kleinmanenergy.upenn.edu/" target="_blank"><img src="./img/kleinman.png" id="klein"></img></a>
+                        <a href="http://kleinmanenergy.upenn.edu/" target="_blank"><img src="./img/kleinman-min.png" id="klein"></img></a>
                     </div>
                     <div class="col-lg-6">
-                        <a href="http://weisslabs.io/"><img src="./img/weisslabs.png" id="weiss" target="_blank"></img></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="text-center">
-                    <div class="col-lg-6">
-                        <a href="http://www.seas.upenn.edu/"><img src="./img/pennEng.png" id="pennEng" target="_blank"></img></a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504672" target="_blank"><img src="./img/icorps.png" id="icorps"></img></a>
+                        <a href="http://weisslabs.io/"><img src="./img/weisslabs-min.png" id="weiss" target="_blank"></img></a>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="text-center">
                     <div class="col-lg-6">
-                        <a href="http://www.pci.upenn.edu/"><img src="./img/pci.png" id="pci" target="_blank"></img></a>
+                        <a href="http://www.seas.upenn.edu/"><img src="./img/pennEng-min.png" id="pennEng" target="_blank"></img></a>
                     </div>
                     <div class="col-lg-6">
-                        <a href="http://pennvention.io/"><img src="./img/pennvention.png" id="pennvention" target="_blank"></img></a>
+                        <a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504672" target="_blank"><img src="./img/icorps-min.png" id="icorps"></img></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center">
+                    <div class="col-lg-6">
+                        <a href="http://www.pci.upenn.edu/"><img src="./img/pci-min.png" id="pci" target="_blank"></img></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="http://pennvention.io/"><img src="./img/pennvention-min.png" id="pennvention" target="_blank"></img></a>
                     </div>
                 </div>
             </div>
@@ -374,7 +383,6 @@
     </section>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -383,12 +391,8 @@
     <script src="js/jquery.easing.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/jquery.scrollify.js"></script>
     <script src="js/jquery.scrollify.min.js"></script>
     <script src="js/grayscale.js"></script>
-    <script src="js/scrollify.js"></script>
-
-    <script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
 
 </body>
 

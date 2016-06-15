@@ -53,8 +53,14 @@ html{
 /*-------------navbar-------------------------*/
 #toptag{
   font-family: 'Poiret One', cursive;
-  padding: 2%;
   vertical-align: middle;
+}
+
+.img-responsive2 {
+    display: inline-block;
+    max-width: 4.5%;
+    height: auto;
+    vertical-align: middle;
 }
 
 /*-------------intro--------------------------*/
@@ -83,7 +89,7 @@ html{
   font-size: 2em;
   margin-top: 1%;
 }
-@media(max-width:800px){
+@media(max-width:600px){
   #headingroot{
   font-family: 'Poiret One', cursive;
   align-self: center;
@@ -129,7 +135,7 @@ html{
   color: #696969;
 }
 
-@media(max-width:800px){
+@media(max-width:600px){
 
   #rootPic{
   width: 70%;
@@ -206,7 +212,7 @@ html{
     color: #99ffff;
 }
 
-@media(max-width:800px){
+@media(max-width:600px){
   #why{
   font-family: 'Poiret One', cursive;
   align-self: center;
@@ -304,7 +310,7 @@ input:focus {
   box-shadow: 0 0 2px #99ffff;
 }
 
-@media(max-width:800px){
+@media(max-width:600px){
   form {
   width: 40%;
   margin: 5% auto;
@@ -518,46 +524,46 @@ input:focus {
 #weiss {
     height: 100%;
     padding: 2%;
-    width: 50%; 
-    margin-top: 1%;  
+    width: 60%; 
+    margin: 1%;  
 }
 
 #klein {
     height: 100%;
-    padding: 2%;
-    width: 100%;
-    margin-top: 1%;
+    padding: 1%;
+    width: 60%;
+    margin: 1%;
 }
 
 #pennEng {
     height: 100%;
     padding: 2%;
-    width: 50%;
-    margin-top: 1%;
+    width: 60%;
+    margin: 1%;
 }
 
 #icorps {
     height: 100%;
     padding: 2%;
-    width: 70%;
-    margin-top: 1%;   
+    width: 60%;
+    margin: 1%;   
 }
 
 #pci{
-    height: 100%;
-    padding: 2%;
-    width: 50%;
-    margin-top: 1%;
+    height: 60%;
+    padding: 1%;
+    width: 60%;
+    margin: 1%;
 }
 
 #pennvention {
     height: 100%;
     padding: 2%;
     width: 60%;
-    margin-top: 1%;
+    margin: 1%;
 }
 
-@media(max-width:800px){
+@media(max-width:600px){
   .heads{
   font-family: 'Poiret One', cursive;
   font-size: 2em;
@@ -684,7 +690,6 @@ input:focus {
 
 #ahmad {
     margin-top:2%;
-    
     border-radius: 0%;
     padding: 2%;
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
@@ -704,7 +709,7 @@ input:focus {
     transform: translateY(4px);
 }
 #don {
-     margin-bottom: 2%;
+    margin-bottom: 2%;
     border-radius: 0%;
     padding: 2%;
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
@@ -745,7 +750,6 @@ input:focus {
 }
 #vincent {
     margin-top:2%;
-    
     border-radius: 0%;
     padding: 2%;
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
@@ -765,7 +769,7 @@ input:focus {
     transform: translateY(4px);
 }
 #mike {
-     margin-bottom: 2%;
+    margin-bottom: 2%;
     border-radius: 0%;
     padding: 2%;
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
@@ -791,8 +795,9 @@ input:focus {
 
 #team{
   background-color: #fff;
+  align-self: center;
 }
- @media(max-width:800px){
+ @media(max-width:600px){
 
  }
 
@@ -817,7 +822,7 @@ input:focus {
   background-color: #fff;
 }
 
-@media(max-width:800px){
+@media(max-width:600px){
   #emailid{
     color: #99ffff;
   }
