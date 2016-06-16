@@ -17,9 +17,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -47,11 +48,11 @@
 
     <script>
     $('document').ready(function(){
-        var mobile = (/iphone|ipod|android|ipad|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
+        var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
         console.log(mobile);
         var isiPad = navigator.userAgent.match(/iPad/i) != null;
         console.log(isiPad);
-        if(mobile){
+        if(mobile && (!isiPad)){
             $('.navbar').css('display','none');
             $('#infohead').animate({'marginTop' : "-=5px"});
             $('.prim').css('display','none');
@@ -62,19 +63,40 @@
             $('#learn').animate({'marginTop' : "+=140px"});
             $('#rootPic').animate({'marginTop' : "-=50px"});
             $('#advisors').css('backgroundColor','#fff');
+            
         }
         else if(isiPad){
-            $('.navbar').css('display','none');
-            $('#infohead').animate({'marginTop' : "+=10px"});
-            $('.prim').css('display','none');
-            $('.prim2').animate({'marginTop' : "-=30px"});
-            $('#why').animate({'marginTop' : "+=50px"});
-            $('#easy').animate({'marginTop' : "-=40px"});
-            $('#pow').animate({'marginTop' : "+=80px"});
-            $('#learn').animate({'marginTop' : "+=140px"});
-            $('#rootPic').animate({'marginTop' : "-=50px"});
-            $('.img-responsive2').animate({'marginTop' : "-=10px"});
-            $('#logo').animate({'marginLeft' : "-=10px"});
+        	if(window.orientation == 0){
+        		console.log("portrait");
+        		$('.navbar').css('display','none');
+	            $('#infohead').animate({'marginTop' : "+=10px"});
+	            $('.prim').css('display','none');
+	            $('.prim2').animate({'marginTop' : "-=30px"});
+	            $('#why').animate({'marginTop' : "+=150px"});
+	            $('#easy').animate({'marginTop' : "-=40px"});
+	            $('#pow').animate({'marginTop' : "+=80px"});
+	            $('#learn').animate({'marginTop' : "+=140px"});
+	            $('#rootPic').animate({'marginTop' : "-=50px"});
+	            $('.img-responsive2').animate({'marginTop' : "-=10px"});
+	            $('#logo').animate({'marginLeft' : "-=10px"});
+	            $('#advisors').css('backgroundColor','#fff');
+        	}
+        	else{
+        		console.log(window.orientation);
+        		$('.navbar').css('display','none');
+	            $('#infohead').animate({'marginTop' : "+=10px"});
+	            $('.prim').css('display','none');
+	            $('.prim2').animate({'marginTop' : "-=30px"});
+	            $('#why').animate({'marginTop' : "+=150px"});
+	            $('#easy').animate({'marginTop' : "-=40px"});
+	            $('#pow').animate({'marginTop' : "+=80px"});
+	            $('#learn').animate({'marginTop' : "+=140px"});
+	            $('#rootPic').animate({'marginTop' : "-=50px"});
+	            $('.img-responsive2').animate({'marginTop' : "-=10px"});
+	            $('#logo').animate({'marginLeft' : "-=10px"});
+	            $('#advisors').css('backgroundColor','#fff');
+        	}
+            
         }
         else{
             $('#why').animate({'marginTop' : "+=10px"});
@@ -218,7 +240,7 @@
     </div>
     </section>
 
-    <section class=" container-fluid text-center example-classname whysection" id="powerful">
+    <section class=" intro intro-body container-fluid text-center example-classname whysection" id="powerful">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                 <h2 id="pow" class="sec2">Powerful.</h2>

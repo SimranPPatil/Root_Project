@@ -134,7 +134,7 @@ body{
 #infotext{
   font-family: 'Poiret One', cursive;
   font-size: 9em;
-  letter-spacing: 1px;
+  
   font-weight: bold;
   color: #696969;
   text-align: justify;
@@ -167,8 +167,7 @@ body{
 
   #infotext{
   font-family: 'Poiret One', cursive;
-  font-size: 0.75em;
-  word-spacing: -1px;
+  font-size: 1%;
   font-weight: bold;
   color: #696969;
   text-align: justify;
@@ -192,6 +191,7 @@ body{
 
 #powerful{
   background-color: #EDF7FA;
+  padding: 3%;
 }
 #why{
   font-family: 'Poiret One', cursive;
@@ -408,7 +408,7 @@ input:focus {
   font-family: 'Poiret One', cursive;
   font-size: 1.5em;
   color: #000;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 #advisors{
@@ -419,7 +419,7 @@ input:focus {
   font-family: 'Poiret One', cursive;
   font-size: 220%;
   color: #000;
-  margin-top: 7%;
+  margin-top: 10%;
 }
 
 #klein{
@@ -588,7 +588,7 @@ input:focus {
   font-family: 'Poiret One', cursive;
   font-size: 2em;
   color: #000;
-  margin-top: 3%;
+  margin-top: 17%;
   }
 
   .spon{
@@ -597,6 +597,7 @@ input:focus {
 
   #advisors{
   background-color: #fff;
+  padding: 5%;
 }
 
   #klein{
