@@ -29,6 +29,20 @@
     <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();
+
+      	$(window).bind('mousewheel', function(e){
+		    if(e.originalEvent.wheelDeltaX != 0) {
+		        e.preventDefault();
+		    }
+		});
+		$(document).keydown(function(e){
+		    if (e.keyCode == 37) { 
+		        e.preventDefault();
+		    }
+		    if (e.keyCode == 39) {
+		        e.preventDefault();
+		    }
+		});
     </script>
 
     <script>
@@ -234,17 +248,6 @@
                 </div>
             </div>
         </div>
-    	<div class=" row" >
-	        <form action="//turingsensors.us12.list-manage.com/subscribe/post?u=ff3325cd38736cd5b311e8907&amp;id=b9e68449bf" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-	            <div class="headermc">
-	             <p>Subscribe for our mailing list</p>
-	            </div>
-	            <div class="input">
-	            <input type="text" class="button" id="emailsub" name="email" placeholder="Email">
-	            <input type="submit" class="button" id="submit" value="Submit">
-	            </div>
-	        </form>
-   		</div>
    	</section>
   
     <!-- Team Section -->

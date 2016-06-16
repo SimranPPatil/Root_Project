@@ -50,6 +50,13 @@ html
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+  width: 100%;
 }
 
 /*-------------navbar-------------------------*/
@@ -64,7 +71,11 @@ html
     height: auto;
     vertical-align: middle;
 }
-
+@media(max-width: 770px){
+  .navbar{
+    width: 99%;
+  }
+}
 /*-------------intro--------------------------*/
 #rootIcon2{
   width: 30%;
