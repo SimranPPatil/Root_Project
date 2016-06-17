@@ -48,12 +48,13 @@
 
     <script>
     $('document').ready(function(){
+        
         var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
         console.log(mobile);
         var isiPad = navigator.userAgent.match(/iPad/i) != null;
         console.log(isiPad);
         if(mobile && (!isiPad)){
-            $('.navbar').css('display','none');
+            $('.navbar').hide();
             $('#infohead').animate({'marginTop' : "-=5px"});
             $('.prim').css('display','none');
             $('.prim2').animate({'marginTop' : "-=30px"});
@@ -68,7 +69,7 @@
         else if(isiPad){
         	if(window.orientation == 0){
         		console.log("portrait");
-        		$('.navbar').css('display','none');
+        		$('.navbar').hide();
 	            $('#infohead').animate({'marginTop' : "+=10px"});
 	            $('.prim').css('display','none');
 	            $('.prim2').animate({'marginTop' : "-=30px"});

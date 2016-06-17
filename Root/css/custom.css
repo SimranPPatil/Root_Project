@@ -56,7 +56,8 @@ html
   background-size: cover;
 }
 body{
-  width: 100%;
+  width: auto;
+
 }
 
 /*-------------navbar-------------------------*/
