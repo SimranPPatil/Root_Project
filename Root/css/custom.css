@@ -408,7 +408,7 @@ input:focus {
   font-family: 'Poiret One', cursive;
   font-size: 1.5em;
   color: #000;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 #advisors{
@@ -597,7 +597,7 @@ input:focus {
 
   #advisors{
   background-color: #fff;
-  padding: 5%;
+  padding: 4%;
 }
 
   #klein{
