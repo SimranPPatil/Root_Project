@@ -49,15 +49,20 @@ html
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    min-width: 100%;
+    background-size: contain;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 body{
-  width: auto;
+  width: 100%;
+}
 
+div{
+  width: 100%;
+  overflow-x: hidden;
 }
 
 /*-------------navbar-------------------------*/
@@ -121,7 +126,6 @@ body{
 
 #about{
   background-color: #EDF7FA;
-  padding: 2%;
   background-size: contain;
 }
 
@@ -192,7 +196,6 @@ body{
 
 #powerful{
   background-color: #EDF7FA;
-  padding: 3%;
 }
 #why{
   font-family: 'Poiret One', cursive;
@@ -218,7 +221,7 @@ body{
     font-family: 'Poiret One', cursive;
 }
 #easy{
-  margin-top: 2%;
+  margin-top: 7%;
 }
 #pow{
   margin-top: 10%;
@@ -424,7 +427,7 @@ input:focus {
 }
 
 #klein{
-    padding: 2%;
+    
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
 #klein::after{
@@ -442,7 +445,7 @@ input:focus {
     transform: translateY(4px);
 }
 #weiss{
-    padding: 2%;
+    
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
 #weiss::after{
@@ -460,7 +463,7 @@ input:focus {
     transform: translateY(4px);
 }
 #pennEng{
-    padding: 2%;
+    
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
 #pennEng::after{
@@ -479,7 +482,7 @@ input:focus {
 }
 
 #icorps{
-    padding: 2%;
+    
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
 #icorps::after{
@@ -498,7 +501,7 @@ input:focus {
 }
 
 #pci{
-    padding: 2%;
+    
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
 #pci::after{
@@ -518,7 +521,7 @@ input:focus {
 
 
 #pennvention{
-    padding: 2%;
+    
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
 }
 #pennvention::after{
@@ -544,42 +547,42 @@ input:focus {
 
 #weiss {
     height: 30%;
-    padding: 2%;
+    
     width: 40%; 
     margin: 1%;  
 }
 
 #klein {
     height: 30%;
-    padding: 1%;
+    
     width: 40%;
     margin: 1%;
 }
 
 #pennEng {
     height: 30%;
-    padding: 2%;
+    
     width: 40%;
     margin: 1%;
 }
 
 #icorps {
     height: 30%;
-    padding: 2%;
+    
     width: 40%;
     margin: 1%;   
 }
 
 #pci{
     height: 30%;
-    padding: 1%;
+    
     width: 40%;
     margin: 1%;
 }
 
 #pennvention {
     height: 30%;
-    padding: 2%;
+    
     width: 40%;
     margin: 1%;
 }
@@ -598,11 +601,11 @@ input:focus {
 
   #advisors{
   background-color: #fff;
-  padding: 4%;
+  
 }
 
   #klein{
-    padding: 1%;
+    
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
   }
   #klein::after{
@@ -620,7 +623,7 @@ input:focus {
     transform: translateY(4px);
   }
   #weiss{
-    padding: 1%;
+    
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
   }
   #weiss::after{
@@ -638,7 +641,7 @@ input:focus {
     transform: translateY(4px);
   }
   #pennEng{
-    padding: 1%;
+    
     box-shadow: 0 0px 0px rgba(0,0,0,0.15);
   }
   #pennEng::after{
@@ -660,42 +663,42 @@ input:focus {
   }
   #weiss {
     height: 30%;
-    padding: 2%;
+    
     width: 40%;
     margin-top: 1%;
   }
 
   #klein {
     height: 30%;
-    padding: 2%;
+    
     width: 40%;
     margin-top: 1%;
   }
 
   #pennEng {
     height: 30%;
-    padding: 2%;
+    
     width: 40%;
     margin-top: 1%;
   }
 
   #icorps {
     height: 30%;
-    padding: 2%;
+    
     width: 40%;
     margin-top: 1%;   
   }
 
   #pci{
       height: 30%;
-      padding: 2%;
+      
       width: 40%;
       margin-top: 1%;
   }
 
   #pennvention {
       height: 30%;
-      padding: 2%;
+      
       width: 40%;
       margin-top: 1%;
   }
@@ -843,7 +846,7 @@ input:focus {
   font-size: 1.5em;
   font-weight:10;
   color: #000;
-  padding: 0.5%;
+  
   letter-spacing: 1px;
   background-color: #EDF7FA;
 }
